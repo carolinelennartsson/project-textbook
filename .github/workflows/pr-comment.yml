@@ -44,21 +44,13 @@ jobs:
 
             const baseUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${runId}/artifacts`;
 
-            const pdfArtifact = artifacts.data.artifacts.find(
-              a => a.name === `textbook-pdf-pr-${pr.number}`
-            );
-            const htmlArtifact = artifacts.data.artifacts.find(
-              a => a.name === `textbook-html-pr-${pr.number}`
+            const artifact = artifacts.data.artifacts.find(
+              a => a.name === `rendered-book-pr-${pr.number}`
             );
 
-            const pdfLine = pdfArtifact
-              ? `📄 [Download PDF](${baseUrl}/${pdfArtifact.id})`
-              : '📄 PDF artifact unavailable';
-            const htmlLine = htmlArtifact
-              ? `🌐 [Download HTML](${baseUrl}/${htmlArtifact.id}) _(unzip and open \`index.html\` locally)_`
-              : '🌐 HTML artifact unavailable';
-
-            const body = `📖 **Quarto render succeeded!**\n\n${pdfLine}\n${htmlLine}\n\n> _Updated on every push to this PR. Links expire after 14 days._`;
+            const body = artifact
+              ? `📖 **Quarto render succeeded!**\n\n📦 [Download rendered book](${baseUrl}/${artifact.id}) _(contains HTML site + PDF; unzip and open \`index.html\` locally)_\n\n> _Updated on every push to this PR. Links expire after 14 days._`
+              : `📖 **Quarto render succeeded!** (artifact unavailable)`;
 
             const comments = await github.rest.issues.listComments({
               owner: context.repo.owner,
