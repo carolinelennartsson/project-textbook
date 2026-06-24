@@ -29,7 +29,7 @@ This helps to keep the repository organized and makes it easier to navigate.
 ## At the beginning of a chapter have a box on "what you should know before reading this chapter" {.unnumbered}
 
 This box should contain links to where to get this knowledge.
-It also helps to set the audience for teh chapter (e.g. rather wetlab or computer scientist)
+It also helps to set the audience for the chapter (e.g. rather wetlab or computer scientist)
 
 A chapter can furthermore link to another chapter or its own subsections.
 
