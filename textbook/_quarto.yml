@@ -12,6 +12,7 @@ book:
     - identification-search.qmd
     - glossary.qmd
     - authors.qmd
+    - references.qmd
 
 bibliography: references.bib
 

@@ -39,9 +39,3 @@ In addition to characteristic mass shifts, many PTMs produce diagnostic fragment
 ### PTM localisation
 
 ## Metaproteomics
-
-
-## References {.unnumbered}
-
-::: {#refs}
-:::
