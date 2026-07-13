@@ -15,6 +15,9 @@ If you come across a term that is not yet defined here, please add it.
 **MS2 (MS/MS, tandem mass spectrometry)**
 : The fragmentation scan performed on selected precursor ions from the MS1 scan. This step is essential for determining the amino acid sequence of a peptide by generating characteristic fragment ions.
 
+**PSM (Peptide-Spectrum Match)**
+: The result of comparing an experimental MS2 spectrum against a theoretical spectrum generated from a reference protein database during database searching. Each PSM is assigned a score reflecting the quality of the match, which is used to distinguish correct peptide identifications from incorrect ones.
+
 **CID (Collision-Induced Dissociation)**
 : A peptide fragmentation method, in which selected precursor ions collide with an inert gas, causing cleavage of the peptide backbone. The resulting fragment ions are commonly classified as b-ions and y-ions.
 
