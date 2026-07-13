@@ -9,6 +9,8 @@ book:
     - index.qmd
     - guidelines.qmd
     - introduction.qmd
+    - identification-search.qmd
+    - glossary.qmd
     - authors.qmd
 
 bibliography: references.bib

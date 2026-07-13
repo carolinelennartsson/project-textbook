@@ -1,0 +1,5 @@
+# Glossary / Terminology
+
+This chapter collects important terms used throughout the book, along with their definitions.
+
+If you come across a term that is not yet defined here, please add it.

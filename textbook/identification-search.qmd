@@ -1,0 +1,27 @@
+# Identification & search
+
+## Database search (DDA)
+
+### Proteomics databases
+
+### Rescoring strategies and scoring algorithms
+
+## Database independent acquisition (DIA search)
+
+## Handling multiple search engines and combining results
+
+### Comparison of search engines and search modes
+
+## FDR calculation and statistical validation
+
+## Protein inference 
+
+## PTM analysis 
+
+### PTM identification 
+
+### PTM localisation
+
+## Metaproteomics
+
+
