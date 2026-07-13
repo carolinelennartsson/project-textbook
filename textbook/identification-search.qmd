@@ -1,12 +1,12 @@
 # Identification & search
 
-## Database search (DDA)
+## Database search (DDA) {#sec-dda-search}
 
 ### Proteomics databases
 
 ### Rescoring strategies and scoring algorithms
 
-## Database independent acquisition (DIA search)
+## Database independent acquisition (DIA search) {#sec-dia-search}
 
 ## Handling multiple search engines and combining results
 
@@ -25,3 +25,7 @@
 ## Metaproteomics
 
 
+## References {.unnumbered}
+
+::: {#refs}
+:::

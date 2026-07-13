@@ -3,3 +3,31 @@
 This chapter collects important terms used throughout the book, along with their definitions.
 
 If you come across a term that is not yet defined here, please add it.
+**ESI (Electrospray Ionization)**
+: An ionization technique used to introduce peptides into a mass spectrometer, imparting one or more electrical charges to the peptide molecules. This produces charged precursor ions that can be separated and analyzed according to their mass-to-charge (m/z) ratios.
+
+**m/z (mass-to-charge ratio)**
+: The peptide property measured by a mass spectrometer's mass analyzer. 
+
+**MS1**
+: The full mass spectrum recorded by the mass analyzer during the initial scan, which measures the m/z of precursor ions before fragmentation.
+
+**MS2 (MS/MS, tandem mass spectrometry)**
+: The fragmentation scan performed on selected precursor ions from the MS1 scan. This step is essential for determining the amino acid sequence of a peptide by generating characteristic fragment ions.
+
+**CID (Collision-Induced Dissociation)**
+: A peptide fragmentation method, in which selected precursor ions collide with an inert gas, causing cleavage of the peptide backbone. The resulting fragment ions are commonly classified as b-ions and y-ions.
+
+**HCD (Higher-energy Collisional Dissociation)**
+: A refined form of CID in which ions are accelerated to higher collision energies. 
+
+**DDA (Data-Dependent Acquisition)**
+: A mass spectrometry acquisition strategy in which the instrument selects precursor ions for fragmentation (MS2) in real time based on their intensity in the survey (MS1) scan, typically fragmenting the top N most abundant ions. 
+
+**DIA (Data-Independent Acquisition)**
+: A mass spectrometry acquisition strategy in which all precursor ions within predefined, sequential mass-to-charge (m/z) windows are systematically fragmented, regardless of their intensity. This produces more comprehensive but also more complex MS2 spectra, which typically require spectral libraries and specialized software for interpretation.
+
+
+
+
+
