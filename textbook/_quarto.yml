@@ -10,6 +10,13 @@ book:
     - guidelines.qmd
     - introduction.qmd
     - identification-search.qmd
+    - quantification.qmd
+    - data-preprocessing-processing.qmd
+    - statistics-downstream-analysis.qmd
+    - machine-learning-ai.qmd
+    - workflows-reproducibility.qmd
+    - programming-tools.qmd
+    - format-usability-preferences.qmd
     - glossary.qmd
     - authors.qmd
     - references.qmd
