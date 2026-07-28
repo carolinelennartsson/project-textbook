@@ -30,6 +30,15 @@ If you come across a term that is not yet defined here, please add it.
 **DIA (Data-Independent Acquisition)**
 : A mass spectrometry acquisition strategy in which all precursor ions within predefined, sequential mass-to-charge (m/z) windows are systematically fragmented, regardless of their intensity. This produces more comprehensive but also more complex MS2 spectra, which typically require spectral libraries and specialized software for interpretation.
 
+**SRM/MRM (Selected/Multiple Reaction Monitoring)**
+: A targeted mass spectrometry acquisition strategy performed on triple quadrupole instruments, in which a predefined set of precursor ion to fragment ion transitions is monitored throughout the run. SRM refers to monitoring a single transition, while MRM refers to monitoring multiple transitions in parallel; the terms are often used interchangeably.
+
+**PRM (Parallel Reaction Monitoring)**
+: A targeted mass spectrometry acquisition strategy performed on high-resolution instruments, in which predefined precursor ions are isolated and fragmented, and all resulting fragment ions are recorded in a single high-resolution MS2 scan, rather than monitoring individual transitions as in SRM/MRM.
+
+**TOF (Time-of-Flight)**
+: A type of mass analyzer that determines the m/z of ions by measuring the time they take to travel through a field-free flight tube, with lighter (lower m/z) ions arriving at the detector faster than heavier ones. TOF analyzers are used in a variety of mass spectrometers, including the Bruker timsTOF.
+
 
 
 

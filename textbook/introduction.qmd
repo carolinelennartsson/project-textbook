@@ -14,7 +14,7 @@ The most widely used fragmentation method is collision-induced dissociation (CID
 
 
 ## Data Acquisition Strategies
-There are several data acquisition method to select peptides from the MS1 for further fragmentation into MS2. There are three main acquisition types in proteomics, in which the precursors are selected from the MS1. The three main data collection strategies are: targeted analysis, data-dependent acquisition (DDA) [@Stahl1996-wd], and data-independent acquisition (DIA). 
+There are several data acquisition method to select peptides from the MS1 for further fragmentation into MS2. There are three main acquisition types in proteomics, in which the precursors are selected from the MS1. The three main data collection strategies are: targeted analysis, data-dependent acquisition (DDA) [@Stahl1996-wd], and data-independent acquisition (DIA). Targeted analysis includes techniques such as selected/multiple reaction monitoring (SRM/MRM) [@Lange2008-srm] and parallel reaction monitoring (PRM) [@Peterson2012-prm], in which a predefined set of precursor ions, and in the case of SRM/MRM their corresponding fragment ions, are monitored throughout the run rather than selected dynamically.
 
 - See @sec-dda-search for details on the database search approach used with DDA.
 - See @sec-dia-search for details on the DIA search approach.
