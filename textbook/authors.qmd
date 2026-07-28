@@ -1,3 +1,5 @@
 # Authors
 
 Add all the authors with their affiliations and ORCID IDs here.
+
+- Caroline Lennartsson — Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen — [ORCID: 0000-0002-8392-6858](https://orcid.org/0000-0002-8392-6858)
