@@ -9,13 +9,33 @@ The experimental MS2 or MS/MS spectra are then compared against these theoretica
 
 ### Proteomics databases
 
+::: {.callout-note}
+TODO: Add content on proteomics databases (e.g., UniProt, sequence database formats and construction).
+:::
+
 ### Rescoring strategies and scoring algorithms
+
+::: {.callout-note}
+TODO: Add content on rescoring strategies and scoring algorithms (e.g., Percolator, machine learning-based rescoring).
+:::
 
 ## Database independent acquisition (DIA search) {#sec-dia-search}
 
+::: {.callout-note}
+TODO: Add content on the DIA search approach (e.g., spectral libraries, DIA-specific search engines).
+:::
+
 ## Handling multiple search engines and combining results
 
+::: {.callout-note}
+TODO: Add content on combining results from multiple search engines.
+:::
+
 ### Comparison of search engines and search modes
+
+::: {.callout-note}
+TODO: Add content comparing search engines and search modes.
+:::
 
 ## FDR calculation and statistical validation
 Peptide-spectrum matches (PSMs) are assigned scores that reflect how well an experimental spectrum matches a theoretical spectrum generated from a protein sequence database. Although these scores rank candidate peptide identifications, they do not directly indicate the probability that a match is correct. Consequently, an additional statistical framework is required to estimate the number of true and false peptide identifications.
@@ -25,9 +45,13 @@ The most widely used approach for estimating identification confidence is the ta
 The numbers of target and decoy identifications are then used to estimate the proportion of false positive identifications among the target matches. This estimation relies on the assumption that incorrect matches are equally likely to occur against the target and decoy databases [@Elias2007-qh]. By selecting a score threshold corresponding to a desired FDR, commonly 1%, researchers can control the expected proportion of false positive peptide identifications while retaining as many true identifications as possible.
 
 
-## Protein inference 
+## Protein inference
 
-## PTM analysis 
+::: {.callout-note}
+TODO: Add content on protein inference (e.g., parsimony principle, protein groups, shared peptides).
+:::
+
+## PTM analysis
 
 ### PTM identification 
 
@@ -38,4 +62,12 @@ In addition to characteristic mass shifts, many PTMs produce diagnostic fragment
 
 ### PTM localisation
 
+::: {.callout-note}
+TODO: Add content on PTM localisation (e.g., localisation scores such as Ascore/PTM score, site ambiguity).
+:::
+
 ## Metaproteomics
+
+::: {.callout-note}
+TODO: Add content on metaproteomics.
+:::
