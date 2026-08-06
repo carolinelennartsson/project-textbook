@@ -9,10 +9,11 @@ book:
     - index.qmd
     - guidelines.qmd
     - introduction.qmd
+    - data-preprocessing.qmd
     - identification-search.qmd
     - quantification.qmd
-    - data-preprocessing-processing.qmd
-    - statistics-downstream-analysis.qmd
+    - post-quantification-processing.qmd
+    - significance-analysis.qmd
     - machine-learning-ai.qmd
     - workflows-reproducibility.qmd
     - programming-tools.qmd
