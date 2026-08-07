@@ -1,9 +1,0 @@
-# Statistics & downstream analysis
-
-::: {.callout-tip}
-Read [Data preprocessing & processing](data-preprocessing-processing.qmd) first.
-:::
-
-::: {.callout-note}
-TODO: Add content on statistics & downstream analysis.
-:::
